@@ -1,0 +1,22 @@
+<nav class="navbar is-white navbar-main" role="navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/assets/logo.png" class="logo-img" alt="Whether Weather logo">
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      {% for item in collections.all | eleventyNavigation %}
+        {% if not item.parent %}
+          <a
+            href="{{ item.url }}"
+            class="navbar-item has-text-weight-semibold
+                   {% if page.url == eleventyNavigation.key %}is-active{% endif %}">
+            {{ item.title }}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,10 @@
+<a href="/city/{{ city.slug }}/"
+   class="box dashboard-card has-text-white">
+  <h2 class="city-title">{{ city.name }}</h2>
+
+  <img src="/assets/{{ city.icon }}"
+       class="city-icon"
+       alt="{{ city.name }} icon">
+
+  <p class="city-temp has-text-white">{{ city.current.temp }}°C</p>
+</a>

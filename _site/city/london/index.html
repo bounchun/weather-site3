@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ city.name }} Weather</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bulma -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="has-text-centered">
+
+  <nav class="navbar is-white navbar-main" role="navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/assets/logo.png" class="logo-img" alt="Whether Weather logo">
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      
+        
+          <a
+            href="/"
+            class="navbar-item has-text-weight-semibold
+                   ">
+            Home
+          </a>
+        
+      
+        
+          <a
+            href="/dashboard/"
+            class="navbar-item has-text-weight-semibold
+                   ">
+            Dashboard
+          </a>
+        
+      
+        
+          <a
+            href="/settings/"
+            class="navbar-item has-text-weight-semibold
+                   ">
+            Settings
+          </a>
+        
+      
+        
+          <a
+            href="/wind-chill-calculator/"
+            class="navbar-item has-text-weight-semibold
+                   ">
+            Wind Chill Calculator
+          </a>
+        
+      
+    </div>
+  </div>
+</nav>
+
+
+  <section class="section main-section">
+    <div class="container">
+      
+<h1 class="title is-2 has-text-centered">London</h1>
+<p class="subtitle is-4 has-text-centered">Today</p>
+
+<div class="weather-layout mb-6">
+
+  <!-- Icon -->
+  <div>
+    <img src="/assets/fog.png"
+         alt="London weather"
+         class="hero-weather">
+  </div>
+
+  <!-- Right now -->
+  <div class="weather-box">
+    <div class="box-title">Right Now</div>
+    <div>5°C</div>
+    <div>12 km/h</div>
+  </div>
+
+  <!-- Max temp -->
+  <div class="weather-box">
+    <div class="box-title">Max Temp</div>
+    <div>9°C</div>
+  </div>
+
+  <!-- Max wind -->
+  <div class="weather-box">
+    <div class="box-title">Max Wind</div>
+    <div>12 km/h</div>
+  </div>
+
+</div>
+
+<h3 class="title is-4 mt-6 has-text-centered">7 Day Summary</h3>
+
+<div class="columns is-mobile is-multiline is-centered mb-6">
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Today</div>
+  <img src="/assets/fog.png" class="day-icon" alt="Today icon">
+  <div class="day-range">2°C – 10°C</div>
+</div>
+
+    </div>
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Mon</div>
+  <img src="/assets/fog.png" class="day-icon" alt="Mon icon">
+  <div class="day-range">7°C – 11°C</div>
+</div>
+
+    </div>
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Tue</div>
+  <img src="/assets/sleet.png" class="day-icon" alt="Tue icon">
+  <div class="day-range">9°C – 12°C</div>
+</div>
+
+    </div>
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Wed</div>
+  <img src="/assets/sleet.png" class="day-icon" alt="Wed icon">
+  <div class="day-range">5°C – 12°C</div>
+</div>
+
+    </div>
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Thu</div>
+  <img src="/assets/cloud.png" class="day-icon" alt="Thu icon">
+  <div class="day-range">5°C – 10°C</div>
+</div>
+
+    </div>
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Fri</div>
+  <img src="/assets/cloud.png" class="day-icon" alt="Fri icon">
+  <div class="day-range">9°C – 12°C</div>
+</div>
+
+    </div>
+  
+    <div class="column is-one-seventh-fullhd is-1-tablet is-4-mobile">
+      <div class="box day-summary-box">
+  <div class="day-label">Sat</div>
+  <img src="/assets/rain.png" class="day-icon" alt="Sat icon">
+  <div class="day-range">6°C – 10°C</div>
+</div>
+
+    </div>
+  
+</div>
+
+<div class="has-text-centered">
+  <a href="/dashboard/" class="button is-link is-medium">
+    Back to Dashboard
+  </a>
+</div>
+
+    </div>
+  </section>
+
+  <footer class="footer has-text-centered">
+  <p>Whether Weather © 2025</p>
+</footer>
+
+
+</body>
+</html>

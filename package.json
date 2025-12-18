@@ -1,0 +1,14 @@
+{
+  "name": "whether-weather",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --port=8080"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^1.0.5"
+  }
+}

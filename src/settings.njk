@@ -1,0 +1,45 @@
+---
+layout: layouts/base.njk
+title: User Preferences
+eleventyNavigation:
+  key: Settings
+  order: 3
+---
+
+<h1 class="title is-2 has-text-centered">User Settings</h1>
+
+<div class="columns is-centered">
+
+  <!-- LEFT BLUE BLOCK -->
+  <div class="column is-one-quarter">
+    <div class="preferences-panel">
+      <h2 class="title is-4 mb-4 has-text-centered">Favourite Cities</h2>
+
+      <div class="cities-vertical">
+        {% for city in cities.cities %}
+          {% set label = city.name %}
+          {% include "components/toggle.njk" %}
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RIGHT BLUE BLOCK -->
+  <div class="column is-one-quarter">
+    <div class="preferences-panel">
+      <h2 class="title is-4 mb-4 has-text-centered">Weather Conditions</h2>
+
+      <div class="settings-vertical">
+        {% set label = "Temperature" %}{% include "components/toggle.njk" %}
+        {% set label = "Precipitation" %}{% include "components/toggle.njk" %}
+        {% set label = "Wind" %}{% include "components/toggle.njk" %}
+        {% set label = "Humidity" %}{% include "components/toggle.njk" %}
+        {% set label = "Pressure" %}{% include "components/toggle.njk" %}
+        {% set label = "Visibility" %}{% include "components/toggle.njk" %}
+      </div>
+
+    </div>
+  </div>
+
+</div>

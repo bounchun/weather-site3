@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+title: Dashboard
+eleventyNavigation:
+  key: Dashboard
+  order: 2
+---
+
+<h1 class="title is-2">Dashboard</h1>
+<h2 class="subtitle is-4">Today</h2>
+
+<div class="columns is-multiline is-centered">
+  {% for city in cities.cities %}
+    <div class="column is-one-third-desktop is-half-tablet">
+      {% include "components/dashboard-card.njk" %}
+    </div>
+  {% endfor %}
+</div>

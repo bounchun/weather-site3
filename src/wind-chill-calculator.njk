@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+title: Wind Chill Calculator
+permalink: /wind-chill-calculator/
+eleventyNavigation:
+  key: Wind Chill Calculator
+  order: 4
+---
+
+<h1 class="title is-2">Wind Chill Calculator</h1>
+<p class="subtitle is-5 mt-3">
+  A simple weather tool that shows how cold it actually feels.
+</p>
+
+<div class="box extra-box">
+
+  <div class="field">
+    <label class="label">Temperature (°C)</label>
+    <input class="input" type="number" placeholder="e.g. 5">
+  </div>
+
+  <div class="field">
+    <label class="label">Wind Speed (km/h)</label>
+    <input class="input" type="number" placeholder="e.g. 20">
+  </div>
+
+  <div class="notification is-light mt-4">
+    <p class="has-text-weight-semibold">Wind Chill Formula:</p>
+    <p class="mt-2">
+      WC = 13.12 + 0.6215T − 11.37V<sup>0.16</sup> + 0.3965T V<sup>0.16</sup>
+    </p>
+    <p class="mt-2 is-size-7">
+      where T is temperature (°C) and V is wind speed (km/h)
+    </p>
+  </div>
+
+  <p class="mt-4">
+    This formula is used by meteorological services to estimate how cold the
+    weather feels on exposed skin.
+  </p>
+
+</div>

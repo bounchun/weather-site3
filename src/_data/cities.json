@@ -1,0 +1,115 @@
+{
+  "cities": [
+    {
+      "name": "Berlin",
+      "slug": "berlin",
+      "icon": "sun.png",
+      "current": { "temp": 7, "wind": 10 },
+      "max": { "temp": 8, "wind": 15 },
+      "forecast": [
+        { "label": "Today","low": 4, "high": 8, "icon": "sun.png" },
+        { "label": "Mon", "low": 3, "high": 6, "icon": "cloud.png" },
+        { "label": "Tue", "low": 3, "high": 7, "icon": "rain.png" },
+        { "label": "Wed", "low": 1, "high": 5, "icon": "rain.png" },
+        { "label": "Thu", "low": 4, "high": 8, "icon": "cloud.png" },
+        { "label": "Fri", "low": 3, "high": 7, "icon": "sun.png" },
+        { "label": "Sat", "low": 3, "high": 8, "icon": "sun.png" }
+      ]
+    },
+
+
+    {
+      "name": "London",
+      "slug": "london",
+      "icon": "fog.png",
+      "current": { "temp": 5, "wind": 12 },
+      "max": { "temp": 9, "wind": 12 },
+      "forecast": [
+        { "label": "Today", "low": 2, "high": 10, "icon": "fog.png" },
+        { "label": "Mon", "low": 7, "high": 11, "icon": "fog.png" },
+        { "label": "Tue",   "low": 9, "high": 12, "icon": "sleet.png" },
+        { "label": "Wed",   "low": 5, "high": 12, "icon": "sleet.png" },
+        { "label": "Thu",   "low": 5, "high": 10, "icon": "cloud.png" },
+        { "label": "Fri",   "low": 9, "high": 12, "icon": "cloud.png" },
+        { "label": "Sat",   "low": 6, "high": 10, "icon": "rain.png" }
+
+      ]
+    },
+
+
+    {
+      "name": "Oslo",
+      "slug": "oslo",
+      "icon": "snow.png",
+      "current": { "temp": 6, "wind": 20 },
+      "max": { "temp": 8, "wind": 13 },
+      "forecast": [
+        { "label": "Today", "low": 5, "high": 9, "icon": "snow.png" },
+        { "label": "Mon",   "low": 1, "high": 9, "icon": "snow.png" },
+        { "label": "Tue",   "low": 3, "high": 4, "icon": "fog.png" },
+        { "label": "Wed",   "low": 2, "high": 4, "icon": "fog.png" },
+        { "label": "Thu",   "low": 3, "high": 6, "icon": "sun.png" },
+        { "label": "Fri",   "low": 1, "high": 5, "icon": "cloud.png" },
+        { "label": "Sat",   "low": 1, "high": 5, "icon": "rain.png" }
+
+      ]
+    },
+
+
+    {
+      "name": "Paris",
+      "slug": "paris",
+      "icon": "wind.png",
+      "current": { "temp": 8, "wind": 11 },
+      "max": { "temp": 9, "wind": 11 },
+      "forecast": [
+        { "label": "Today", "low": 7, "high": 10, "icon": "wind.png" },
+        { "label": "Mon",   "low": 4, "high": 9, "icon": "storm.png" },
+        { "label": "Tue",   "low": 6, "high": 12, "icon": "storm.png" },
+        { "label": "Wed",   "low": 7, "high": 12, "icon": "rain.png" },
+        { "label": "Thu",   "low": 7, "high": 11, "icon": "cloud.png" },
+        { "label": "Fri",   "low": 8, "high": 12, "icon": "sun.png" },
+        { "label": "Sat",   "low": 7, "high": 11, "icon": "sun.png" }
+
+      ]
+    },
+
+
+    {
+      "name": "Warsaw",
+      "slug": "warsaw",
+      "icon": "rain.png",
+      "current": { "temp": 4, "wind": 14 },
+      "max": { "temp": 5, "wind": 9 },
+      "forecast": [
+        { "label": "Today", "low": 1, "high": 5, "icon": "rain.png" },
+        { "label": "Mon",   "low": 0, "high": 3, "icon": "wind.png" },
+        { "label": "Tue",   "low": 1, "high": 3, "icon": "wind.png" },
+        { "label": "Wed",   "low": 1, "high": 2, "icon": "sleet.png" },
+        { "label": "Thu",   "low": 1, "high": 3, "icon": "fog.png" },
+        { "label": "Fri",   "low": 2, "high": 3, "icon": "rain.png" },
+        { "label": "Sat",   "low": 2, "high": 3, "icon": "cloud.png" }
+
+      ]
+    },
+
+
+    {
+      "name": "Zagreb",
+      "slug": "zagreb",
+      "icon": "storm.png",
+      "current": { "temp": 2, "wind": 17 },
+      "max": { "temp": 2, "wind": 10 },
+      "forecast": [
+        { "label": "Today", "low": 2, "high": 3, "icon": "storm.png" },
+        { "label": "Mon",   "low": 0, "high": 2, "icon": "wind.png" },
+        { "label": "Tue",   "low": 1, "high": 4, "icon": "wind.png" },
+        { "label": "Wed",   "low": 2, "high": 7, "icon": "rain.png" },
+        { "label": "Thu",   "low": 3, "high": 8, "icon": "sleet.png" },
+        { "label": "Fri",   "low": 4, "high": 10, "icon": "sun.png" },
+        { "label": "Sat",   "low": 2, "high": 7, "icon": "cloud.png" }
+
+      ]
+    }
+  ]
+}
