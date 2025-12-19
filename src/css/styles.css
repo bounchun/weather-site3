@@ -17,9 +17,9 @@
 
 /* Navbar */
   .navbar-main {
-  min-height: 70px;       /* allow natural height */
+  min-height: 70px;       
   display: flex;
-  align-items: center; /* center items vertically */
+  align-items: center; 
 }
 
 .navbar-item {
@@ -81,10 +81,10 @@ h2.subtitle {
 .weather-layout {
   display: grid;
   grid-template-columns: 400px 400px;
-  column-gap: 1rem;   /* small space between columns */
+  column-gap: 1rem;   
   row-gap: 1.5rem;
   align-items: center;
-  justify-content: center; /* centers the whole grid*/
+  justify-content: center; 
   margin-top: 3rem;
 }
 
