@@ -185,10 +185,10 @@ h2.subtitle {
 .cities-vertical,
 .settings-vertical {
   display: flex;
-  flex-direction: column;   /* items stack top→bottom */
-  gap: 0.6rem;              /* space between each toggle */
-  align-items: center;  /* center text */
-  margin-top: 3rem;   /* increase space under the heading */
+  flex-direction: column;   
+  gap: 0.6rem;              
+  align-items: center; 
+  margin-top: 3rem;   
 }
 
 
