@@ -1,6 +1,8 @@
 # weather-site3
 ## Whether Weather 🌦️
-<p align="center"> <img src="./assets/logo.png" alt="Whether Weather Logo" width="220"> </p>
+<p align="center"> 
+   <img src="./assets/logo.png" alt="Whether Weather Logo" width="220"> 
+</p> 
 
 ### 📌 Project Description
 
@@ -102,6 +104,16 @@ _css/
   styles.css
 
 ### 🧰 Tech Stack & Tools
+
+<p align="center">
+  <img src="assets/logos/html5-logo.png" alt="HTML5" width="55"/>
+  <img src="assets/logos/css-logo.png" alt="CSS3" width="55"/>
+  <img src="assets/logos/eleventy-logo.png" alt="Eleventy" width="55"/>
+  <img src="assets/logos/nunjucks-logo.png" alt="Nunjucks" width="55"/>
+  <img src="assets/logos/bulma-logo.png" alt="Bulma" width="55"/>
+  <img src="assets/logos/netlify-logo.png" alt="Netlify" width="55"/>
+  <img src="assets/logos/github-logo.png" alt="GitHub" width="55"/>
+</p>
 
 **Eleventy (11ty)** – Static site generator
 
