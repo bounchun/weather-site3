@@ -17,41 +17,46 @@ Follow the steps below to run the project locally.
 
 1.	Ensure **Node.js, npm, Git** are installed on your machine. 
 You can verify the setup by running in a command prompt terminal (cmd).
-`node -v`
-`npm -v`
-`git –version`
 
+```
+node -v
+npm -v
+git –version
+```
 
 2.	Download or clone the repository.
    
 Clone the project from **GitHub** and move into the project directory:
 
-`git clone https://github.com/your-username/your-repository-name.git`
-`cd your-repository-name`
+```
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+```
 
-Sources: 
+### Sources
 
-https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github
+- [Downloading files from GitHub](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github)
+- [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 3.	Install dependencies using npm:
 `npm install`
-This will install Eleventy and all other dependencies defined in package.json.
+This will install **Eleventy** and all other dependencies defined in `package.json`.
 
-4.	Start Eleventy’s development server:
+4.	Start **Eleventy**’s development server:
    
 Run `npx @11ty/eleventy --serve`
-Eleventy will build the site, monitors file changes and serve the project locally during development.
+**Eleventy** will build the site, monitors file changes and serve the project locally during development.
 
 5.	Open your browser and visit:
 `http://localhost:8080`
 
 6.	Deploy the project from **Github** on **Netlify** (optional)
 
-Source:
+### Sources
 
-https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/
+- [A Step-by-Step Guide to Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+
 
 ### 🚀 Usage
 
@@ -67,16 +72,17 @@ Navigation is available on every page using the main menu.
 
 City and weather data are stored in a global JSON file:
 
-/_data/cities.json
+`/_data/cities.json`
 
 To add or modify cities:
 
-* Edit cities.json
+* Edit `cities.json`
 
 Eleventy will automatically update the dashboard, city pages, and settings options.
 
 ### 🗂 Project Structure
 
+```
 _includes/
   layouts/
     base.njk
@@ -102,6 +108,7 @@ pages/
 
 _css/
   styles.css
+```
 
 ### 🧰 Tech Stack & Tools
 
