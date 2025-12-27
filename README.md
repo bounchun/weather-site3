@@ -1,7 +1,7 @@
 # weather-site3
 ## Whether Weather 🌦️
 <p align="center"> 
-   <img src="./assets/logo.png" alt="Whether Weather Logo" width="220"> 
+   <img src="./assets/logo.png" alt="Whether Weather Logo" height="140"> 
 </p> 
 
 ### 📌 Project Description
@@ -106,13 +106,13 @@ _css/
 ### 🧰 Tech Stack & Tools
 
 <p align="center">
-  <img src="assets/logos/html5-logo.png" alt="HTML5" width="55"/>
-  <img src="assets/logos/css-logo.png" alt="CSS3" width="55"/>
-  <img src="assets/logos/eleventy-logo.png" alt="Eleventy" width="55"/>
-  <img src="assets/logos/nunjucks-logo.png" alt="Nunjucks" width="55"/>
-  <img src="assets/logos/bulma-logo.png" alt="Bulma" width="55"/>
-  <img src="assets/logos/netlify-logo.png" alt="Netlify" width="55"/>
-  <img src="assets/logos/github-logo.png" alt="GitHub" width="55"/>
+  <img src="assets/logos/eleventy-logo.png" alt="Eleventy" height="100"/>
+  <img src="assets/logos/nunjucks-logo.png" alt="Nunjucks" height="100"/>
+  <img src="assets/logos/bulma-logo.png" alt="Bulma" height="100"/>
+  <img src="assets/logos/html5-logo.png" alt="HTML5" height="100"/>
+  <img src="assets/logos/css-logo.png" alt="CSS3" height="100"/>
+  <img src="assets/logos/netlify-logo.png" alt="Netlify" height="100"/>
+  <img src="assets/logos/github-logo.png" alt="GitHub" height="100"/>
 </p>
 
 **Eleventy (11ty)** – Static site generator
@@ -153,11 +153,10 @@ This project was completed for educational purposes as part of a web development
 
 ### 📬 Contact Information
 
-Author: Boun Chun
-https://github.com/bounchun
+For questions related to this project, please contact the author [Boun Chun](https://github.com/bounchun) or the course instructor [John Reillis](https://github.com/johnrellis).
 
-Course Instructor: John Reillis
-https://github.com/johnrellis
+
+
 
 
 
