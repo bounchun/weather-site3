@@ -40,15 +40,19 @@ cd your-repository-name
 
 
 3.	Install dependencies using npm:
-`npm install`
-This will install **Eleventy** and all other dependencies defined in `package.json`.
+   
+   `npm install`
+
+   This will install **Eleventy** and all other dependencies defined in `package.json`.
 
 4.	Start **Eleventy**’s development server:
    
-Run `npx @11ty/eleventy --serve`
-**Eleventy** will build the site, monitors file changes and serve the project locally during development.
+Run `npx @11ty/eleventy --serve`  
+
+**Eleventy** will build the site, monitor file changes and serve the project locally during development.
 
 5.	Open your browser and visit:
+   
 `http://localhost:8080`
 
 6.	Deploy the project from **Github** on **Netlify** (optional)
@@ -66,6 +70,7 @@ Once the project is running, users can:
 * Click a city card to open a **City Focus Page** with detailed weather information
 * Use the **Settings Page** to select favourite cities and preferred weather conditions (UI only)
 * Explore the **Wind Chill Calculator** to understand how wind speed affects perceived temperature
+  
 Navigation is available on every page using the main menu.
 
 ### 🔧 Configuration
